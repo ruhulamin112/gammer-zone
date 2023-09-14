@@ -327,23 +327,24 @@ main {
 
   /*==================== footer section start hear ===================*/
 
-    
-.footer {
-  background-color: #0B0223;
-  height: 700px;
-  padding-top: 100px;
+ 
+    .footer {
+      background-color: #0B0223;
+      height: 700px;
+      padding-top: 100px;
+  }
+
+  
+
+  .footer-head {
+    justify-content: center;
+    color: #000000;
+    padding: 50px;
 }
-
-
-.footer-head {
-  justify-content: center;
-  color: #000000;
-  padding: 50px;
-}
-
 
 .footer-head h3 {
   color: white;
+  
 }
 
 
@@ -353,17 +354,17 @@ main {
     margin-top: 50px;
 }
 
-
 .list li {
   display: inline-block;
   color: #fff;
   padding: 0 25px;
   margin-top: 20px;
 }
-
+  
 .list a,
 .social a {
     color: #fff;
+
 }
 
 .social a {
@@ -376,5 +377,21 @@ main {
 
 .social>a:hover{
   color: #183D3D;
+}
+
+.more-info a {
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.more-info li {
+  padding-right: 30px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 50px;
 }
   /*==================== footer section end hear ===================*/

@@ -1,0 +1,42 @@
+@media screen and (max-width: 576px) {
+    nav,
+    nav>ul,
+    .banner
+    {
+        flex-direction: column;
+    }
+
+    nav>ul>li{
+        padding: 15px 0;
+        text-align: center;
+    
+    }
+
+    .section-description{
+        text-align: center;
+    }
+    
+    .banner{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    
+    .banner-info>h2{
+        text-align: center;
+        font-size: 2rem; 
+       
+      }
+
+      .banner-info>h1{
+        text-align: center;
+        font-size: 4rem;
+       
+      }
+
+}
+
+
+
+
+
+

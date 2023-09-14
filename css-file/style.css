@@ -12,3 +12,72 @@
     list-style: none;
     text-decoration: none;
 }
+
+
+.color-primary {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+  /*==================== nav section start hear =====================*/
+
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+  }
+
+  .gammer-logo{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0px 10px;
+  }
+
+
+  nav>ul{
+    display: flex;
+  }
+
+  nav>ul>li{
+    color: #3C354F;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-right: 50px;
+
+  }
+
+  nav a{
+    color: #3C354F;
+    transition : .1s;
+  }
+
+  nav a:hover{
+    color: #F948B2;
+  }
+
+  .nav-social-icons{
+    width: 262px;
+    height: 58px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+  }
+
+  nav>ul .ytube-icon {
+    color: red;
+    margin-left: 5px;
+  }
+
+
+  nav>ul .tiktok-icon{
+    color: #000000;
+  }
+
+
+ /*==================== nav section end hear =====================*/
